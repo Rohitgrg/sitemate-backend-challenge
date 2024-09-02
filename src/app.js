@@ -9,7 +9,7 @@ app.use(express.json());
 app.use('/api/issues', issuesRoutes);
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Notes API!');
+    res.send('Welcome to the Issues API!');
 });
 
 app.listen(PORT, () => {
