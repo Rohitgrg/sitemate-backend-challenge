@@ -1,0 +1,23 @@
+{
+  "name": "sitemate-backend-challenge",
+  "version": "1.0.0",
+  "description": "Site mate backend challenge",
+  "exports": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "lowdb": "^7.0.1",
+    "nanoid": "^5.0.7",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "author": "Rohit Gurung",
+  "license": "ISC"
+}
